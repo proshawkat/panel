@@ -1,0 +1,256 @@
+@import "bourbon";
+
+body{
+    width: 100%;
+    height: 100%;
+    background:  #f4f6f8;
+    /*background: linear-gradient(to right, #25c481, #25b7c4);*/
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {  
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.form-signin {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);  
+}
+
+.form-signin-heading, .checkbox {
+    margin-bottom: 30px;
+}
+
+.checkbox {
+    font-weight: normal;
+}
+
+.form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+
+    &:focus {
+      z-index: 2;
+    }
+}
+
+input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+    margin-top: 7px !important;
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.shop_user_wrapper{
+    width: 100%;
+    min-height: 50px;
+    background-color: #142849;
+
+}
+
+.shop_user_wrapper .shop_list_logo_area{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-weight: 600;
+}
+
+.shop_user_wrapper .shop_list_logo_area h4{
+    font-style: italic;
+    padding-top: 7px;
+}
+
+.shop_user_wrapper .shopper_login{
+    text-align: right;
+    color: #fff;
+}
+.shop_user_wrapper .shopper_login ul{
+    list-style: none;
+}
+.shop_user_wrapper .shopper_login ul li{
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.shop_user_wrapper .shopper_login ul li a{
+    font-weight: bold;
+    color: #fff;
+}
+.sshower_wrapper{
+    width: 100%;
+    min-height: 568px;
+}
+
+.sitebar_wrapper{
+    width: 100%;
+    min-height: 100px;
+    background-color: #fff;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.shop_header_list{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.shop_list{
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+}
+
+.shop_list table tr th{
+    padding-left: 20px;  
+}
+
+.shop_list table tr td{
+    padding-left: 20px;  
+}
+
+.shop_list table tbody tr td a{
+    color: #fff;
+}
+
+.shop_list table tbody tr td a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.shop_footer_area{
+    width: 100%;
+    min-height: 30px;
+    background-color: #142849;
+}
+.shop_footer_wrapper{
+    width: 100%;
+    min-height: auto;
+    background-color: #142849;
+    color: #fff;
+    text-align: center;
+}
+.shop_footer_wrapper p{
+    padding-top: 5px;
+}
+
+.pagination{
+    float: right;
+    margin-right: 7px;
+    width: 150px;
+}
+.pagi_next{
+    background-color: #635d5d;
+    padding: 7px 10px;
+    font-style: 17px;
+    color: #fff;
+    text-decoration: none;
+}
+.pagi_prev{
+    background-color: #635d5d;
+    padding: 7px 10px;
+    border-right: 1px solid #fff;
+    font-style: 17px;
+    color: #fff;
+    text-decoration: none;
+}
+.pagi_prev:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #403c3c;
+}
+.pagi_next:hover{
+    color: #fff;
+    background-color: #403c3c;
+    text-decoration: none;
+}
+.pagination_totalcal{
+    width: 90px;
+    float: left;
+}
+.pagination_icon{
+    width: 60px;
+    float: right;
+}
+
+.shopif_shop{
+    padding-right: 7px;
+}
+.shopif_shop:hover{
+    color: #142849;
+}
+.shopif_funnel{
+    padding-right: 7px;
+}
+.shopif_funnel:hover{
+    color: #142849;
+}
+.shopif_dino:hover{
+    color: #142849;
+}
+
+.disable{
+    cursor: not-allowed;
+    background-color: #d2d0d0;
+}
+.disable:hover{
+    cursor: not-allowed;
+    background-color: #d2d0d0;
+}
+.left_sitebar{
+    width: 100%;
+    height: auto;
+}
+
+.left_sitebar ul{
+    list-style: none;
+}
+
+.left_sitebar ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.right_sitebar{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.user_form{
+    width: 100%;
+    min-height: 100px;
+}
+.form-group{
+    width: 35% !important;
+}
+.user_form input[type="text"]{
+    width: 95% !important;
+    border-radius: 0px !important;
+}
+.user_form input[type="password"]{
+    width: 95% !important;
+    border-radius: 0px !important;
+    margin-top: -2px !important;
+}
+.user_form .password{
+    margin-top: 20px !important;
+    border-radius: 0px !important;
+}
+.user_form button{
+    margin-top: 22px !important;
+}
